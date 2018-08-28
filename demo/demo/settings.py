@@ -57,7 +57,7 @@ INSTALLED_APPS = [
     'demo',
 
     # Wagtail news image
-    'wagtailnewsimage'
+    'wagtailnewsimage',
 ]
 
 MIDDLEWARE = [
