@@ -9,9 +9,6 @@ Setup requires `virtualenv` and Python 3
 ./scripts/setup.sh
 . env/bin/activate
 
-# Install the app
-pip3 install -e ~/code/wagtail-news-image
-
 # Run the server on localhost
 cd demo
 ./manage.py runserver
