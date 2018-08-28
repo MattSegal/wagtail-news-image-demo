@@ -1,6 +1,6 @@
 # Wagtail News Image Example
 
-Example app used to showcase the News Image plugin for Draftail.
+Example app used to showcase the [News Image](https://github.com/StocksDigital/wagtail-news-image) plugin for Draftail.
 
 Setup requires `virtualenv` and Python 3
 
