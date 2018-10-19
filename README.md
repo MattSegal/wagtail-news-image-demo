@@ -16,4 +16,4 @@ cd demo
 
 Now you can visit `localhost:8000` to see the demo page.
 
-You can also visit `localhost:800/cms/pages/` to see the Wagtail admin. Username and password are `admin` / `z`
+You can also visit `localhost:8000/cms/pages/` to see the Wagtail admin. Username and password are `admin` / `z`

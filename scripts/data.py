@@ -29,7 +29,18 @@ news_page = NewsImagePage(**{
     "owner": admin,
     "first_published_at": "2018-08-28T04:30:35.450Z",
     "last_published_at": "2018-08-28T04:30:35.450Z",
-    "body": '<h2>Image with a link</h2><p>This is an image with a hyperlink wrapping it:</p><embed alt="Cadrona terrain park (New Zealand)" embedtype="news-image" href="https://www.cardrona.com/winter/" id="1" title="Cadrona terrain park (New Zealand)" width="800"/><p></p><p>Ut tristique et egestas quis. Aenean euismod elementum nisi quis eleifend quam adipiscing. Vel pretium lectus quam id leo in vitae turpis massa. Eu turpis egestas pretium aenean pharetra magna ac placerat. Ut porttitor leo a diam.</p><h2>Resized Image</h2><p>This is an image that has been resized using the &quot;resize&quot; button from the &quot;Edit&quot; tab:</p><embed alt="Snowmass, Aspen" embedtype="news-image" href="" id="2" title="Snowmass, Aspen" width="480"/><p></p><p>Non arcu risus quis varius quam. Sed sed risus pretium quam vulputate dignissim suspendisse in est. Ut tristique et egestas quis ipsum suspendisse ultrices gravida. Orci nulla pellentesque dignissim enim sit.</p><p></p>',
+    "body": (
+        '<h2>Wagtail Admin Page</h2>'
+        '<p>You can access the Wagtail admin <a href="/cms/pages/">here</a>. Username and password are "admin" / "z"</p>'
+        '<h2>Image with a link</h2>'
+        '<p>This is an image with a hyperlink wrapping it:</p>'
+        '<embed alt="Cadrona terrain park (New Zealand)" embedtype="news-image" href="https://www.cardrona.com/winter/" id="1" title="Cadrona terrain park (New Zealand)" width="800"/>'
+        '<p>Ut tristique et egestas quis. Aenean euismod elementum nisi quis eleifend quam adipiscing. Vel pretium lectus quam id leo in vitae turpis massa. Eu turpis egestas pretium aenean pharetra magna ac placerat. Ut porttitor leo a diam.</p>'
+        '<h2>Resized Image</h2>'
+        '<p>This is an image that has been resized using the &quot;resize&quot; button from the &quot;Edit&quot; tab:</p>'
+        '<embed alt="Snowmass, Aspen" embedtype="news-image" href="" id="2" title="Snowmass, Aspen" width="480"/>'
+        '<p>Non arcu risus quis varius quam. Sed sed risus pretium quam vulputate dignissim suspendisse in est. Ut tristique et egestas quis ipsum suspendisse ultrices gravida. Orci nulla pellentesque dignissim enim sit.</p>'
+    ),
 })
 root_page.add_child(instance=news_page)
 
